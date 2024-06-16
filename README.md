@@ -19,20 +19,15 @@ sudo apt install jq
 sudo yum install jq
 ```
 
-```bash
-# Example installation using brew (for macOS)
-brew install jq
-```
-
 ## Usage
 To run the script, follow these steps:
 
-Download the Script: Download the environment_setup.sh script to your desired directory.
+Download the Script: Download the connectify.sh script to your desired directory.
 
 Make the Script Executable: If necessary, make the script executable using chmod command:
 
 ```bash
-chmod +x environment_setup.sh
+chmod +x connectify.sh
 ```
 
 Run the Script: Execute the script using one of the following methods:
@@ -40,13 +35,13 @@ Run the Script: Execute the script using one of the following methods:
 ## Execution
 
 ```bash
-source ./environment_setup.sh <IP>:<PORT>
+source ./connectify.sh <IP>:<PORT>
 ```
 
 or
 
 ```bash
-. ./environment_setup.sh <IP>:<PORT>
+. ./connectify.sh <IP>:<PORT>
 ```
 
 ## Notes
